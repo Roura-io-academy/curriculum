@@ -16,6 +16,12 @@ do low-voltage and alarm work commercially in New Jersey.
 eight-term sequence with prerequisites, weekly hours, credit-equivalents, and per-term
 deliverables.
 
+| Document | Answers |
+| :-- | :-- |
+| [Program of Study](./PROGRAM-OF-STUDY.md) | In what order do I take everything? |
+| [Course Catalog](./CATALOG.md) | What is every course? ~140 entries, numbered, weighted, prerequisite-chained |
+| [Transcript](./TRANSCRIPT.md) | What have I actually finished? Degree audit, portfolio index, licensure hours log |
+
 Every course, book, and lab linked here is free to audit, read, or run. Where something is
 genuinely paid — a certification exam, a vendor's instructor-led class, a statutory
 education requirement — it is marked as such, and a free path to the same knowledge is
@@ -54,6 +60,8 @@ A reasonable three-program sequence, if you are doing all of them:
 ```
 roura-io-academy/
 ├── PROGRAM-OF-STUDY.md          The master eight-term sequence across all four programs
+├── CATALOG.md                   Every course: code, credits, prerequisites, link
+├── TRANSCRIPT.md                Degree audit, portfolio index, experience-hours log
 ├── computer-science/            Program 1 — CS core + Swift
 │   ├── README.md                The curriculum
 │   └── swift-labs/              A Swift package of CS exercises with a failing test suite

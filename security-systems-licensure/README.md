@@ -240,6 +240,40 @@ document assembled.
 > alarm license is attainable. If the goal is revenue while the experience clock runs, this
 > term is the one to pull forward to the front of the program.
 
+### Running alongside: safety, business, and vendor credentials
+
+These do not fit a single term. Start them early and keep them current.
+
+###### Safety certifications — get these before you need them
+Credential | Source | Cost | Notes
+:-- | :--: | :--: | :--
+[OSHA 10-Hour Construction](https://www.osha.gov/training/outreach/construction) | OSHA | ~$80 | Frequently required for commercial site access
+[First Aid / CPR](https://www.redcross.org/take-a-class/first-aid) | Red Cross | ~$100 | Also an insurance and bid-qualification factor
+OSHA 30 | OSHA | ~$180 | Worth it if you supervise anyone
+
+###### Business practice
+Resource | Source | Focus
+:-- | :--: | :--
+[Business.NJ.gov](https://business.nj.gov/) | State of NJ | Formation, registration, employer obligations
+[SBA Business Guide](https://www.sba.gov/business-guide) | US SBA | Planning, cash flow, hiring
+[SCORE](https://www.score.org/) | SCORE | Free mentoring from working business owners
+[NJ Division of Taxation](https://www.nj.gov/treasury/taxation/) | State of NJ | **Sales tax treatment of installation services**
+[Home Improvement Practices Act (N.J.A.C. 13:45A-16.2)](https://www.law.cornell.edu/regulations/new-jersey/section-13-45A-16.2) | NJ Admin. Code | Required contract terms for residential work
+[Principles of Microeconomics (14.01)](https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/) | MIT | Pricing, margin, and market structure
+
+Two of these will bite you specifically. **Sales tax on installation services** in New
+Jersey is not intuitive — whether a job is taxable can turn on whether the installation is
+a capital improvement, and getting it wrong is a liability that compounds silently until an
+audit. And the **Home Improvement Practices Act** dictates required contract terms for
+residential work; a contract missing them is a regulatory problem regardless of how well
+the install went.
+
+###### Manufacturer and platform training
+Most vendors gate their training behind a dealer account, which you get after you have a
+licensed business. Plan for it after Term 7, not before: Ubiquiti, Axis, Alarm.com,
+Resideo/Honeywell, DSC, and Qolsys all run their own programs, and dealer certification is
+frequently a condition of buying equipment at trade pricing at all.
+
 ### Term 8 — Licensure and capstone
 
 By now the experience hours should be logged or nearly so. This term is the application

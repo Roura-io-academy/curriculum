@@ -111,6 +111,50 @@ UniFi Full Stack Professional (UFSP), UniFi Routing, Switching & Cybersecurity A
 Ubiquiti work commercially and want the credential; they teach little that the free
 material above doesn't cover.
 
+## Cross-cutting: the skills every year assumes
+
+These do not belong to a single year — they are the substrate the rest of the program runs
+on, and the most common gaps in self-taught network engineers.
+
+###### Linux and systems administration
+Courses | Source | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Introduction to Linux](https://www.edx.org/learn/linux/the-linux-foundation-introduction-to-linux) | Linux Foundation | 8 weeks | 5 hours/week | self-paced | none
+[Linux Journey](https://linuxjourney.com/) | Linux Journey | 4 weeks | 4 hours/week | self-paced | none
+[The Missing Semester](https://missing.csail.mit.edu/) | MIT | 2 weeks | 6 hours/week | self-paced | none
+[DigitalOcean Community Tutorials](https://www.digitalocean.com/community/tutorials) | DigitalOcean | ongoing | reference | reference | Introduction to Linux
+
+Every appliance you will touch — UniFi gateways, pfSense, Security Onion, an NVR — is Linux
+underneath. Not being fluent at a shell is the ceiling on this entire career.
+
+###### Wireless and RF
+Courses | Source | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[CWNP — wireless fundamentals](https://www.cwnp.com/) **(certifications paid)** | CWNP | 8 weeks | 6 hours/week | self-paced | Year 1
+[Ekahau blog and design resources](https://ekahau.com/blog/) | Ekahau | ongoing | reference | reference | Year 1
+
+Wi-Fi is where most UniFi jobs actually succeed or fail, and RF behavior is genuinely
+counterintuitive. If you deploy wireless for money, this is not optional depth.
+
+###### Fiber, voice, and physical layer
+Courses | Source | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Fiber Optic Association](https://www.thefoa.org/) | FOA | 6 weeks | 5 hours/week | self-paced | Year 1
+[Asterisk Documentation](https://docs.asterisk.org/) — VoIP | Asterisk | 4 weeks | 5 hours/week | reference | Year 2
+
+###### Automation, monitoring, and cloud
+Courses | Source | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Ansible Documentation](https://docs.ansible.com/) | Red Hat | 4 weeks | 5 hours/week | reference | Linux, Python
+[Prometheus](https://prometheus.io/docs/introduction/overview/) | Prometheus | 3 weeks | 5 hours/week | reference | Linux
+[LibreNMS](https://docs.librenms.org/) | LibreNMS | 3 weeks | 4 hours/week | reference | Year 2
+[IPv6 Certification](https://ipv6.he.net/certification/) | Hurricane Electric | 4 weeks | 3 hours/week | self-paced | Year 2
+[AWS Skill Builder](https://aws.amazon.com/training/digital/) **(free tier)** | AWS | 4 weeks | 5 hours/week | self-paced | Year 2
+
+A network you cannot see the state of is a network you are guessing about. Build the
+monitoring before you need it — the Hurricane Electric IPv6 certification is free, graded,
+and one of the few no-cost credentials in networking that actually proves something.
+
 ## Year 4 — Security
 
 Defensive security on top of a network you already understand. Nothing here is offensive

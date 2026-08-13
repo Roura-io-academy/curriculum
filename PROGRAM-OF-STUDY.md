@@ -1,9 +1,18 @@
 # Roura-io Academy — Program of Study
 
-The master sequence. Where the four program files are the *catalog* — what exists, why, and
-where to find it — this document is the *program of study*: everything in the academy placed
-in the order I would actually take it, with prerequisites, workload, and what each term has
-to produce before it counts as finished.
+The master sequence: everything in the academy placed in the order to actually take it,
+with prerequisites, workload, and what each term must produce before it counts as finished.
+
+Three documents work together:
+
+| Document | Answers |
+| :-- | :-- |
+| [Course Catalog](./CATALOG.md) | *What is every course?* Codes, credit-equivalents, prerequisites |
+| **Program of Study** (this file) | *In what order do I take them?* |
+| [Transcript](./TRANSCRIPT.md) | *What have I actually finished?* Degree audit, portfolio, hours log |
+
+Course codes below (`CS 210`, `NET 320`, `REG 410`) refer to the
+[Catalog](./CATALOG.md), where each has a link, a credit weight, and its prerequisite chain.
 
 **Last reviewed: 2026-08-13.**
 
@@ -81,30 +90,38 @@ is, and start the experience clock.
 
 ### Term 1
 
-| Program | Coursework | Hours/wk |
-| :-- | :-- | :--: |
-| CS | CS50x: Introduction to Computer Science | 10 |
-| CS | The Missing Semester of Your CS Education | 4 |
-| Net | Networking Basics (Cisco NetAcad) · Introduction to Packet Tracer | 5 |
-| Lic | Electrical and electronic fundamentals · OSHA 10 | 6 |
+| Program | Code | Course | Hours/wk |
+| :-- | :-- | :-- | :--: |
+| CS | CS 101 | CS50x: Introduction to Computer Science | 10 |
+| CS | SYS 130 | The Missing Semester of Your CS Education | 4 |
+| CS | CS 230 | Pro Git | 2 |
+| Net | NET 101, NET 102 | Networking Basics · Introduction to Packet Tracer | 5 |
+| Lic | LVT 110, LVT 130 | Electrical fundamentals · OSHA 10 **(paid)** | 6 |
 
 **Deliverables.** A command-line utility that reads a file, transforms it, and reports
-statistics — with tests. A Packet Tracer topology you built from a written requirement.
-A wiring notebook with your own measurements.
+statistics — with tests, in version control, with a readable commit history. A Packet
+Tracer topology built from a written requirement. A wiring notebook with your own
+measurements.
 
 ### Term 2
 
-| Program | Coursework | Hours/wk |
-| :-- | :-- | :--: |
-| CS | Programming for Everybody · Python Data Structures | 6 |
-| CS | Precalculus (Khan Academy) — skip if already fluent | 5 |
-| Net | Networking Devices and Initial Configuration · Professor Messer N10-009 | 6 |
-| Lic | Structured cabling and physical installation | 6 |
+| Program | Code | Course | Hours/wk |
+| :-- | :-- | :-- | :--: |
+| CS | CS 110, CS 111 | Programming for Everybody · Python Data Structures | 6 |
+| CS | MATH 100 | Precalculus — skip if already fluent | 5 |
+| CS | PRO 110 | Technical Writing | 2 |
+| Net | NET 110, NET 120 | Networking Devices and Initial Config · Messer N10-009 | 6 |
+| Net | SYS 140 | Introduction to Linux | 4 |
+| Lic | LVT 210, LVT 211 | Structured cabling · Fluke knowledge base | 6 |
+| Lic | REG 220, REG 230 | **Telecom wiring exemption · HIC registration** **(fees)** | 3 |
 
-**Deliverables.** A tested Python CLI over a real dataset. A subnetting worksheet you can
-do without a calculator. A documented cable run with certification test results.
+**Deliverables.** A tested Python CLI over a real dataset, documented well enough that
+someone else can run it. A subnetting worksheet done without a calculator. A documented
+cable run with certification test results.
 
-**Milestone (optional, paid).** CompTIA Network+.
+**Milestones.** CompTIA Network+ *(optional, paid)*. **Telecommunications wiring exemption
+and HIC registration filed** — these have no experience prerequisite and are what make
+cabling work legal to invoice while the alarm clock runs.
 
 ---
 
@@ -116,12 +133,13 @@ people who can use a framework but not evaluate one.
 
 ### Term 3
 
-| Program | Coursework | Hours/wk |
-| :-- | :-- | :--: |
-| CS | Calculus 1A + 1B (MITx) | 8 |
-| CS | Using Python to Access Web Data · Using Databases with Python | 5 |
-| Net | Introduction to Networks (ITN) · Jeremy's IT Lab CCNA (begin) | 8 |
-| Lic | Fire alarm systems — NFPA 72, NEC Article 760 | 6 |
+| Program | Code | Course | Hours/wk |
+| :-- | :-- | :-- | :--: |
+| CS | MATH 110, MATH 111 | Calculus 1A + 1B | 8 |
+| CS | CS 120, CS 121 | Using Python to Access Web Data · Using Databases with Python | 5 |
+| CS | DATA 110 | SQLBolt | 1 |
+| Net | NET 210, NET 211 | Introduction to Networks · CCNA course (begin) | 8 |
+| Lic | LVT 220, LVT 221 | NFPA 72 · NEC Article 760 | 6 |
 
 **Deliverables.** A notebook proving one algorithm mathematically and validating it
 experimentally. A routed multi-VLAN lab with documented failure tests. A fire alarm design
@@ -129,18 +147,21 @@ with battery standby calculations and code citations.
 
 ### Term 4
 
-| Program | Coursework | Hours/wk |
-| :-- | :-- | :--: |
-| CS | Mathematics for Computer Science (MIT 6.042J) — **discrete math** | 8 |
-| CS | Linear Algebra — Foundations to Frontiers | 6 |
-| Net | Jeremy's IT Lab CCNA (complete) · Wireshark | 8 |
-| Lic | Intrusion, access, and video systems | 6 |
+| Program | Code | Course | Hours/wk |
+| :-- | :-- | :-- | :--: |
+| CS | MATH 210 | Mathematics for Computer Science (6.042J) — **discrete math** | 8 |
+| CS | MATH 220 | Linear Algebra — Foundations to Frontiers | 6 |
+| CS | CS 231 | Refactoring and Design Patterns | 3 |
+| Net | NET 211, NET 220 | CCNA course (complete) · Wireshark | 8 |
+| Net | NET 230 | IPv6 Certification | 2 |
+| Lic | LVT 230, LVT 240, LVT 241 | UL standards · Axis Academy · UniFi Protect and Access | 6 |
 
 **Deliverables.** Proof sets from 6.042J. A packet capture analysis explaining a full DNS
 and TLS handshake from the wire. A camera design with lens/coverage math and a written
 privacy note.
 
-**Milestone (optional, paid).** Cisco CCNA.
+**Milestones.** Cisco CCNA *(optional, paid)*. Hurricane Electric IPv6 certification —
+free, graded, and one of the few no-cost credentials in networking that proves something.
 
 > Discrete math is the prerequisite the original curriculum was missing and the reason
 > Algorithms Part I lands in Term 5 rather than Term 3. Do not reorder these.
@@ -154,32 +175,36 @@ on the trade side; the beginning of AI.
 
 ### Term 5
 
-| Program | Coursework | Hours/wk |
-| :-- | :-- | :--: |
-| CS | Algorithms, Part I (Princeton) | 8 |
-| CS | Nand to Tetris I | 5 |
-| CS | Swift: Getting Started · The Swift Programming Language · **swift-labs** | 6 |
-| Net | UniFi deployment — Help Center, Crosstalk, Willie Howe | 6 |
-| AI | Machine Learning Specialization (Stanford/DeepLearning.AI) | 6 |
-| Lic | Networking for security systems *(skip if taking Net)* | — |
+| Program | Code | Course | Hours/wk |
+| :-- | :-- | :-- | :--: |
+| CS | CS 210 | Algorithms, Part I | 8 |
+| CS | SYS 210 | Nand to Tetris I | 5 |
+| CS | SWIFT 101, 110, 140 | Swift language · **swift-labs** | 6 |
+| Net | NET 310, 311, 312 | UniFi deployment — Help Center, Crosstalk, Willie Howe | 6 |
+| Net | NET 320 | Wireless and RF fundamentals | 4 |
+| AI | AI 210 | Machine Learning Specialization | 6 |
+| AI | DATA 210, DATA 211 | Data science in Python · plotting and charting | 4 |
 
 **Deliverables.** All five swift-labs green. A single-site UniFi deployment with three
-VLANs and a written handover document. A baseline ML model with honest error analysis and
-a model card.
+VLANs, a wireless survey with a channel plan, and a written handover document. A baseline
+ML model with honest error analysis and a model card.
 
 ### Term 6
 
-| Program | Coursework | Hours/wk |
-| :-- | :-- | :--: |
-| CS | Algorithms, Part II · Nand to Tetris II | 8 |
-| CS | 100 Days of SwiftUI · CS193p | 6 |
-| Net | Operating Systems: Three Easy Pieces · CS144 | 8 |
-| AI | Practical Deep Learning for Coders (fast.ai) · Neural Networks: Zero to Hero | 8 |
-| Lic | Code, law, and the regulatory environment · **80-hour approved course** | 6 |
+| Program | Code | Course | Hours/wk |
+| :-- | :-- | :-- | :--: |
+| CS | CS 211, SYS 211 | Algorithms, Part II · Nand to Tetris II | 8 |
+| CS | SYS 220 | Computer Architecture (CS61C) | 6 |
+| CS | SWIFT 212, SWIFT 310 | 100 Days of SwiftUI · CS193p | 6 |
+| Net | SYS 310, NET 240 | Operating Systems: Three Easy Pieces · CS144 | 8 |
+| Net | NET 350, NET 360 | Ansible · Prometheus and LibreNMS | 4 |
+| AI | AI 230, AI 231 | fast.ai · Neural Networks: Zero to Hero | 8 |
+| AI | DATA 320 | Data Engineering Zoomcamp | 6 |
+| Lic | REG 110, 130, 131, 140 | NJ code and law · **REG 210 80-hour course (paid)** | 6 |
 
 **Deliverables.** A working TCP implementation (CS144). A SwiftUI app with tests,
 accessibility labels, and persistence. A small language model trained from scratch. A
-written compliance brief for a hypothetical job.
+versioned data pipeline with CI checks. A written compliance brief for a hypothetical job.
 
 > **Pull forward if revenue matters:** the telecommunications wiring exemption and HIC
 > registration have no experience prerequisite and can be obtained in Year 1. See
@@ -191,29 +216,34 @@ written compliance brief for a hypothetical job.
 
 ### Term 7
 
-| Program | Coursework | Hours/wk |
-| :-- | :-- | :--: |
-| CS | Database Management Essentials · Cryptography I | 6 |
-| CS | Swift concurrency and Swift 6 data-race safety · Swift Testing | 4 |
-| Net | Professor Messer SY0-701 · MIT 6.858 · Suricata + Security Onion | 8 |
-| AI | CS231n or CS224n · Hugging Face LLM Course | 8 |
-| Lic | Business formation · license application assembled | 5 |
+| Program | Code | Course | Hours/wk |
+| :-- | :-- | :-- | :--: |
+| CS | DATA 120, SEC 220 | Database Management Essentials · Cryptography I | 6 |
+| CS | SWIFT 320, 321, 330 | Swift concurrency · Swift 6 data-race safety · Swift Testing | 4 |
+| CS | CS 310 | Crafting Interpreters | 5 |
+| Net | SEC 120, SEC 310 | Messer SY0-701 · Computer Systems Security (6.858) | 8 |
+| Net | SEC 320, SEC 330, SEC 340 | Suricata + Security Onion · ATT&CK · NIST CSF and CIS | 5 |
+| AI | AI 310 *or* AI 311 | CS231n *or* CS224n | 6 |
+| AI | AI 321, AI 330, AI 331, AI 332 | HF LLM Course · Anthropic courses · tool use · MCP | 8 |
+| Lic | BUS 110–230, REG 140 | Business formation, tax, insurance · application assembled | 5 |
 
 **Deliverables.** A documented service with a relational schema, auth boundaries, and a
-threat model. A monitored, segmented lab network with an incident-response tabletop. A
-retrieval application with citations, structured outputs, and adversarial tests.
+threat model. A monitored, segmented lab network with an incident-response tabletop. An
+agent with real tools, error handling, and an evaluation suite. A complete business
+package: entity, insurance quotes, contract template, pricing model.
 
 **Milestone (optional, paid).** CompTIA Security+.
 
 ### Term 8 — Capstone
 
-| Program | Coursework | Hours/wk |
-| :-- | :-- | :--: |
-| CS | Capstone project | 8 |
-| Net | Multi-site secure network capstone | 6 |
-| AI | Stanford CS336 *or* production deployment (Made With ML / FSDL) | 10 |
-| AI | AI Safety Fundamentals · evaluation harness | 4 |
-| Lic | Licensure: exam, fingerprinting, capstone install package | 6 |
+| Program | Code | Course | Hours/wk |
+| :-- | :-- | :-- | :--: |
+| CS | CS 490 | Software capstone | 8 |
+| CS | PRO 230, PRO 240 | Portfolio practicum · open-source contribution | 3 |
+| Net | NET 490 | Multi-site secure network capstone | 6 |
+| AI | AI 320 *or* AI 350/351/352 | CS336 *or* production deployment (Made With ML / FSDL / MLOps) | 10 |
+| AI | AI 370, AI 372, AI 490 | AI Safety Fundamentals · NIST AI RMF and OWASP LLM · capstone | 6 |
+| Lic | REG 410, LVT 490 | Licensure: exam, fingerprinting · installation capstone | 6 |
 
 **Capstones — one per program, all four documented to the same standard:**
 

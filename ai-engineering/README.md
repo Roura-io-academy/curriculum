@@ -131,6 +131,33 @@ Courses | Source | Duration | Effort | Frequency | Prerequisites
 [Full Stack Deep Learning](https://fullstackdeeplearning.com/course/2022/) | FSDL | 8 weeks | 8 hours/week | self-paced | Year 2
 [vLLM Documentation](https://docs.vllm.ai/en/latest/) | vLLM | 3 weeks | 5 hours/week | reference | Year 3
 
+###### Data engineering — the half of AI work that is actually data work
+Courses | Source | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[SQLBolt](https://sqlbolt.com/) | SQLBolt | 1 week | 4 hours | self-paced | none
+[Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) | DataTalksClub | 9 weeks | 8 hours/week | annual cohort + self-paced | Python, SQL
+[Database Systems (15-445)](https://15445.courses.cs.cmu.edu/) | CMU | 14 weeks | 10 hours/week | self-paced | Year 1, algorithms
+[PostgreSQL Documentation](https://www.postgresql.org/docs/current/) | PostgreSQL | ongoing | reference | reference | SQLBolt
+
+Surveys of practitioners consistently put data preparation at the majority of the work.
+A model you cannot feed reliably is a demo, and pipelines are where most production AI
+systems actually break.
+
+###### MLOps and experiment tracking
+Courses | Source | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp) | DataTalksClub | 9 weeks | 8 hours/week | annual cohort + self-paced | Year 2
+[LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) | DataTalksClub | 8 weeks | 6 hours/week | annual cohort + self-paced | Year 3
+[W&B Courses](https://www.wandb.courses/) | Weights & Biases | 3 weeks | 4 hours/week | self-paced | Year 2
+
+###### Classical ML, in depth
+Courses | Source | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Machine Learning (CS229)](https://cs229.stanford.edu/) | Stanford | 14 weeks | 12 hours/week | self-paced | Mathematics for Machine Learning
+
+CS229 is the rigorous version of Year 1's specialization — the derivations rather than the
+intuitions. Take it if you intend to read papers rather than only consume libraries.
+
 ###### Safety, alignment, and evaluation
 Courses | Source | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:

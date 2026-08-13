@@ -170,11 +170,70 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 [Practical Deep Learning for Coders](https://course.fast.ai/) | fast.ai | 8 weeks | 8-10 hours/week | self-paced | Applied Machine Learning in Python
 [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) | Andrej Karpathy | 8 weeks | 6-8 hours/week | self-paced | Calculus 1A, Python
 
+## Software Engineering Practice
+
+Knowing algorithms and being able to work on a codebase with other people are different
+skills, and a curriculum that only teaches the first produces people who are hard to work
+with. This section is the second.
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Pro Git](https://git-scm.com/book/en/v2) | Chacon & Straub | 2 weeks | 4 hours/week | reference | basic programming
+[Refactoring and Design Patterns](https://refactoring.guru/) | Refactoring Guru | 4 weeks | 4 hours/week | self-paced | CS61A or equivalent
+[The Twelve-Factor App](https://12factor.net/) | Adam Wiggins | 1 week | 3 hours | reference | Using Databases with Python
+[Technical Writing Courses](https://developers.google.com/tech-writing) | Google | 2 weeks | 4 hours/week | self-paced | none
+[ACM Code of Ethics](https://www.acm.org/code-of-ethics) | ACM | 1 week | 2 hours | reference | none
+[Tech Interview Handbook](https://www.techinterviewhandbook.org/) | Yangshun Tay | ongoing | 4 hours/week | self-paced | Algorithms, Part I
+
+Technical writing is not a soft skill here — it is the deliverable standard for every
+capstone in this academy, and the one competence that makes all the others legible to
+other people.
+
+## Computer Architecture and Advanced Systems
+
+Nand to Tetris builds a computer from first principles, which is the right place to start
+and the wrong place to stop. These pick up where it ends.
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Great Ideas in Computer Architecture (CS61C)](https://cs61c.org/) | UC Berkeley | 14 weeks | 10 hours/week | self-paced | CS61A, Nand to Tetris I
+[Distributed Systems (6.824)](https://pdos.csail.mit.edu/6.824/) | MIT | 12 weeks | 12 hours/week | self-paced | OSTEP, CS144, Go literacy
+[Database Systems (15-445)](https://15445.courses.cs.cmu.edu/) | CMU | 14 weeks | 10 hours/week | self-paced | Algorithms Part I, CS61C
+
+6.824 is the hardest course in this program and the one that most changes how you think
+about systems. Take it after operating systems and networking, never before.
+
+## Programming Languages and Compilers
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Crafting Interpreters](https://craftinginterpreters.com/) | Robert Nystrom | 10 weeks | 8 hours/week | self-paced | Algorithms, Part I
+[Compilers (CS143)](https://web.stanford.edu/class/cs143/) | Stanford | 14 weeks | 12 hours/week | self-paced | Crafting Interpreters, CS61C
+
+Write one interpreter by hand before taking a compilers course. Nystrom's book is the best
+on-ramp in the field, and it makes CS143 tractable instead of punishing.
+
+## Alternate and supplementary paths
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Structure and Interpretation of Computer Programs (CS61A)](https://cs61a.org/) | UC Berkeley | 14 weeks | 10 hours/week | self-paced | none
+[Introduction to Algorithms (6.006)](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/) | MIT | 12 weeks | 10 hours/week | self-paced | discrete math
+[Think Python](https://greenteapress.com/wp/think-python-2e/) | Allen Downey | 4 weeks | 5 hours/week | self-paced | none
+[Teach Yourself Computer Science](https://teachyourselfcs.com/) | Oz Nova & Myles Byrne | — | reference | reference | none
+[OSSU Computer Science](https://github.com/ossu/computer-science) | OSSU | — | reference | reference | none
+
+CS61A is a genuine alternative to the Michigan Python sequence for anyone who wants a
+harder, more conceptual introduction. Teach Yourself CS and OSSU are other people's
+answers to the same question this repository is asking — worth reading for what they chose
+differently.
+
 ## Applications
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
 [Database Management Essentials](https://www.coursera.org/learn/database-management) | University of Colorado | 7 weeks | 4-6 hours/week | twice a month | basic programming & CS knowledge
+[PostgreSQL Documentation](https://www.postgresql.org/docs/current/) | PostgreSQL | ongoing | reference | reference | Database Management Essentials
 [Cryptography I](https://www.coursera.org/learn/crypto) | Stanford | 7 weeks | 5 hours/week | once a month | Linear Algebra, Introduction to Probability and Data
 
 ## Unix & Tooling
