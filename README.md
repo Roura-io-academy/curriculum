@@ -1,18 +1,28 @@
 # Roura-io Academy
 
-Three self-directed programs built entirely from free and open materials, each sized to
-a four-year course of study. Together they cover the ground of a CS degree, a networking
-and security career track, and an AI engineering specialization.
+Four self-directed programs built from free and open materials, each sized to a four-year
+course of study. Together they cover the ground of a CS degree, a networking and security
+career track, an AI engineering specialization, and the professional licensure required to
+do low-voltage and alarm work commercially in New Jersey.
 
 | Program | What it covers | Length |
 | :-- | :-- | :--: |
 | [Computer Science (Python + Swift)](./computer-science) | The CS core — programming, math, theory, systems, data — plus a full Swift track and hands-on Swift labs | 4 years |
 | [Networking & Security](./networking-security) | Networking fundamentals through CCNA-level routing and switching, UniFi/Ubiquiti deployment, and defensive security | 4 years |
 | [AI Engineering](./ai-engineering) | Math and ML foundations, deep learning, LLMs and agents, and production AI systems | 4 years |
+| [Security Systems & Low-Voltage Licensure](./security-systems-licensure) | Electrical fundamentals, cabling, fire/intrusion/video systems, and the NJ burglar alarm, fire alarm, and telecommunications wiring credentials | 4 years |
 
-Every course, book, and lab linked here is free to audit, read, or run. Where a program
-touches something that is genuinely paid — a certification exam, a vendor's instructor-led
-class — it is marked as such and a free path to the same knowledge is given alongside it.
+**Start here: [Program of Study](./PROGRAM-OF-STUDY.md)** — all four programs merged into one
+eight-term sequence with prerequisites, weekly hours, credit-equivalents, and per-term
+deliverables.
+
+Every course, book, and lab linked here is free to audit, read, or run. Where something is
+genuinely paid — a certification exam, a vendor's instructor-led class, a statutory
+education requirement — it is marked as such, and a free path to the same knowledge is
+given alongside it wherever one exists.
+
+This is not an accredited degree and grants no academic credit. See
+[Academic standards](./PROGRAM-OF-STUDY.md#academic-standards).
 
 ## How the three fit together
 
@@ -43,12 +53,15 @@ A reasonable three-program sequence, if you are doing all of them:
 
 ```
 roura-io-academy/
-├── computer-science/       Program 1 — CS core + Swift
-│   ├── README.md           The curriculum
-│   └── swift-labs/         A Swift package of CS exercises with a failing test suite
-├── networking-security/    Program 2 — Cisco, UniFi, and defensive security
+├── PROGRAM-OF-STUDY.md          The master eight-term sequence across all four programs
+├── computer-science/            Program 1 — CS core + Swift
+│   ├── README.md                The curriculum
+│   └── swift-labs/              A Swift package of CS exercises with a failing test suite
+├── networking-security/         Program 2 — Cisco, UniFi, and defensive security
 │   └── README.md
-├── ai-engineering/         Program 3 — ML through production AI systems
+├── ai-engineering/              Program 3 — ML through production AI systems
+│   └── README.md
+├── security-systems-licensure/  Program 4 — NJ alarm and low-voltage licensure
 │   └── README.md
 └── LICENSE
 ```
